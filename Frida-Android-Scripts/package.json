@@ -1,0 +1,22 @@
+{
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            [
+              "es2015",
+              {
+                "loose": true
+              }
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "frida-compile": "^6.0.0"
+  }
+}
